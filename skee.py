@@ -5,7 +5,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from collections import defaultdict
 
-# CHANGE THESE! Enter the roller names you want to collect scores
+# CHANGE THESE. Enter the roller names you want to collect scores
 # for. You'll also need to enter the exact match ids from the 
 # score.brewskeeball.com site for each of your matches.
 ROLLERS = ['Bug Byte', 'Jameskee', 'Citro Nella', 'Gnatty Lite']
